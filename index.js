@@ -1,7 +1,6 @@
 const books = [
   {
-    name: "To Kill a Mockingbird",
-    authorFirst: "Harper",
+    name: "To Kill a Mockingbird", authorFirst: "Harper",
     authorLast: "Lee",
     publishDate: 1960,
     genre: ["mystery", "historical", "fiction"],
@@ -100,3 +99,7 @@ const titles = [
 //was every book published within the last 100 years?
 
 //print a list of books that "includes" the genre historical
+
+
+const age = books.filter(books => books.publishDate > 1820);
+console.log(age)
