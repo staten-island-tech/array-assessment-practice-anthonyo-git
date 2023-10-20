@@ -100,6 +100,4 @@ const titles = [
 
 //print a list of books that "includes" the genre historical
 
-
-const age = books.filter(books => books.publishDate > 1820);
-console.log(age)
+const whowrotewhat = books.foreach ( => ${})
